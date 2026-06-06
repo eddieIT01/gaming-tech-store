@@ -54,3 +54,26 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.neon-text {
+  text-shadow: 0 0 12px rgba(34, 211, 238, 0.35), 0 0 30px rgba(168, 85, 247, 0.18);
+}
+
+.glow-ring {
+  box-shadow: 0 0 40px rgba(34, 211, 238, 0.15), inset 0 0 80px rgba(168, 85, 247, 0.08);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer-bar {
+  background: linear-gradient(90deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.18) 50%, rgba(255,255,255,0.08) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2.5s linear infinite;
+}

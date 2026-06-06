@@ -1,14 +1,14 @@
 # Cyberpunk Gaming Tech Store
 
-A polished gaming storefront built with Next.js 16, Tailwind CSS 4, and a modern App Router experience.
+A premium gaming storefront built with Next.js 16, Tailwind CSS 4, and a neon glass design system.
 
 ## Project features
 
-- Responsive gaming store landing page
-- Builder lab placeholder page for future configurator features
-- Product detail pages with cyberpunk rig highlights
-- Community hub page for member engagement
-- Glassmorphism theme with neon accents
+- High-end homepage with neon hero, product showcase, and secure payments focus
+- Premium product detail pages with Visa/Mastercard/COD and enterprise-grade security messaging
+- Builder lab with high-end rig selection and checkout readiness
+- Community hub for custom builds, live chat, and trending setups
+- Glassmorphism UI, vibrant neon gradients, and polished layout animations
 - GitHub Actions CI workflow for build validation
 
 ## Local development
@@ -28,9 +28,15 @@ cd web
 npm run build
 ```
 
-## GitHub deployment
+## Deploy
 
-1. Push the `web` folder repository to GitHub.
-2. Use Vercel or another hosting provider for live deployment.
+The app is ready to deploy to Vercel or any static-first hosting provider.
 
-If you want to deploy on GitHub, the repo already includes a GitHub Actions workflow to validate builds on push.
+For Vercel, connect the GitHub repository and publish the site. If you use `gaming-tech-store` as the project name, the expected URL is:
+
+`https://gaming-tech-store.vercel.app`
+
+## Notes
+
+- The site includes remote product imagery and a premium store aesthetic.
+- Payment trust and security sections are integrated throughout the design.

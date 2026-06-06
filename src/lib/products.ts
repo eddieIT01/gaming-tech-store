@@ -6,6 +6,7 @@ export type Product = {
   description: string;
   features: string[];
   highlight: string;
+  image: string;
 };
 
 export const products: Product[] = [
@@ -23,6 +24,8 @@ export const products: Product[] = [
       "Custom holographic chassis",
     ],
     highlight: "Built for 4K competitive gaming and creator workflows.",
+    image:
+      "https://images.unsplash.com/photo-1517430816045-df4b7de6a3b6?auto=format&fit=crop&w=1200&q=80",
   },
   {
     slug: "nightwave-compact",
@@ -38,6 +41,8 @@ export const products: Product[] = [
       "ARGB glass side panel",
     ],
     highlight: "Perfect for desks with limited space and maximum style.",
+    image:
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
   },
   {
     slug: "vaporcore-xt",
@@ -53,24 +58,29 @@ export const products: Product[] = [
       "Quiet blower cooling system",
     ],
     highlight: "Stream, edit, and encode without thermal throttling.",
+    image:
+      "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
   },
 ];
 
 export const categories = [
   {
     title: "Custom Builds",
-    description: "Choose a ready-made rig with cyberpunk performance and visual flair.",
+    description:
+      "Choose a ready-made rig with cyberpunk performance and visual flair.",
   },
   {
     title: "Builder Lab",
-    description: "Mix parts, compare scores, and design a rig for your next mission.",
+    description:
+      "Mix parts, compare scores, and design a rig for your next mission.",
   },
   {
-    title: "Community"
-    , description: "Join the squad, share setups, and explore curated upgrades.",
+    title: "Community",
+    description: "Join the squad, share setups, and explore curated upgrades.",
   },
 ];
 
 export function findProduct(slug: string) {
   return products.find((product) => product.slug === slug);
 }
+
